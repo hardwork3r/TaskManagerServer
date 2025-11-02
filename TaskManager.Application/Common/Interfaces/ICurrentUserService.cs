@@ -1,0 +1,9 @@
+﻿namespace TaskManager.Application.Common.Interfaces;
+
+public interface ICurrentUserService
+{
+    string? UserId { get; }
+    string? Role { get; }
+    bool IsAuthenticated { get; }
+    bool IsAdmin { get; }
+}
