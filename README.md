@@ -82,8 +82,8 @@ curl -X GET http://localhost:5000/api/tasks \
 
 **Пример логов:**
 ```
-[10:30:20 INF] 🔐 Login attempt for user admin@test.com
-[10:30:20 INF] ✅ User admin@test.com logged in successfully
+[10:30:20 INF] Login attempt for user admin@test.com
+[10:30:20 INF] User admin@test.com logged in successfully
 [10:30:20 INF] HTTP POST /api/auth/login responded 200 in 145ms
 ```
 
