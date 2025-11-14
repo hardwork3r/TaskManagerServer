@@ -13,7 +13,7 @@ services:
       - key: MONGODB_DATABASE_NAME
         value: taskmanager
       - key: JWT_SECRET_KEY
-        generateValue: true
+        sync: false
       - key: CORS_ORIGINS
         value: "*"
       - key: ASPNETCORE_ENVIRONMENT
@@ -21,4 +21,5 @@ services:
       - key: ASPNETCORE_URLS
         value: http://0.0.0.0:5000
       - key: PORT
+
         value: 5000
